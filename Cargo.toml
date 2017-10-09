@@ -1,0 +1,25 @@
+[package]
+name = "sandpit"
+version = "1.0.0"
+authors = ["lxb <toor@lxb.io>"]
+build = "build.rs"
+description = "Sandpit is a toy sandboxed application to test debugging"
+repository = "https://github.com/0x6c7862/sandpit"
+keywords = ["sandbox"]
+license = "UNLICENSE"
+publish = false
+
+[dependencies]
+cc = "1.0"
+libc = "0.2"
+futures = "0.1.14"
+tokio-core = "0.1"
+tokio-timer = "0.1"
+tokio-uds = "0.1"
+nom = "3.2"
+
+[profile.release]
+panic = 'abort'
+
+[build-dependencies]
+cc = "1.0"
