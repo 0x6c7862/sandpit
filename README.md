@@ -2,6 +2,9 @@
 
 Sandpit is a toy application to test debugging.
 
+Slides from the presentation can be found
+[here](https://github.com/0x6c7862/sandpit/releases/download/v1.0.0/presentation.pdf).
+
 
 ## Challenge
 
